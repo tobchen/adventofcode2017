@@ -2,7 +2,7 @@ import re
 
 def calc_steps(x, y):
 	if abs(x) >= abs(y):
-		return x
+		return abs(x)
 	else:
 		return abs(abs(y) - abs(x)) / 2 + abs(x)
 
